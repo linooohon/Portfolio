@@ -1,0 +1,293 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: #f6f6f6;
+}
+
+.HomePage {
+  width: 100%;
+}
+
+.HomePage p {
+  margin-bottom: 0;
+}
+.MainBar {
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  /* border-bottom: 1px solid rgb(219, 185, 185); */
+}
+
+.MainBar .container {
+  max-width: 650px;
+}
+
+.MainBar .row {
+  margin: 0;
+}
+
+.loGo {
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid rgb(219, 185, 185);
+}
+
+.loGo h1 {
+  font-size: 2rem;
+}
+
+.loGo a {
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-decoration: none;
+  color: #a7a7a7;
+}
+
+.loGo a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.galleryNav {
+  /* font-family: 'Comfortaa', cursive; */
+  font-size: 13px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(219, 185, 185);
+}
+
+.gallery-subject {
+  padding: 8px 8px 8px 20px;
+}
+
+.gallery-subject a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+
+.gallery-subject a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.infoNav {
+  /* font-family: 'Comfortaa', cursive; */
+  font-size: 13px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(219, 185, 185);
+}
+
+.info-subject {
+  padding: 8px 8px 8px 20px;
+}
+
+.info-subject a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+
+.info-subject a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.my-pic-img {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.my-pic .container {
+  max-width: 650px;
+}
+
+.my-pic-img img {
+  border-radius: 5px;
+}
+
+.my-contact .container {
+  max-width: 650px;
+}
+
+.my-contact-info-list-item {
+  padding-top: 0.7rem;
+}
+
+.info-ul .name {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1rem 0;
+}
+
+.info-ul p {
+  /* font-family: 'Comfortaa', cursive; */
+}
+
+.info-ul a {
+  text-decoration: none;
+  color: rgb(92, 112, 77);
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14px;
+}
+
+.info-ul a:hover {
+  text-decoration: none;
+  color: rgb(51, 37, 37);
+  padding-bottom: 1rem;
+}
+.my-project {
+  padding: 2rem 0;
+}
+
+.my-project .container {
+  max-width: 650px;
+}
+.my-project-info-box {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.my-project-info-box p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* font-family: 'Comfortaa', cursive; */
+}
+.project-list .container {
+  max-width: 650px;
+}
+
+.project-list-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(196, 191, 191);
+  border-radius: 5px;
+}
+
+.project-list-item .description {
+  width: 50%;
+  height: 110px;
+  padding-left: 5px;
+}
+
+.project-list-item .pic {
+  width: 50%;
+  height: 110px;
+}
+.project-list-item .pic img {
+  width: 100%;
+  height: 110px;
+}
+
+.project-list-item-a:hover {
+  text-decoration: none;
+}
+
+.project-list-item .description:hover {
+  background-color: #ece9e9;
+}
+
+.project-list-item .description:hover .title {
+  background-color: #ece9e9;
+}
+
+.project-list-item .description:hover .summary {
+  background-color: #ece9e9;
+}
+.project-list-item .description:hover .link {
+  background-color: #ece9e9;
+}
+
+.project-list-item .description .title {
+  font-weight: 600;
+  color: #000;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.project-list-item .description .summary {
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: 'Comfortaa', cursive;
+  color: #818181;
+  padding: 5px 3px 0 3px;
+}
+
+.project-list-item .description .link {
+  font-size: 0.5rem;
+  font-weight: 600;
+  /* font-family: 'Comfortaa', cursive; */
+  color: #272525;
+  padding: 5px 5px 0 5px;
+  /* overflow: visible; */
+}
+
+.project-list .explain {
+  color: #000;
+  font-size: 0.75rem;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+/*  */
+
+.sticky-navbar {
+  position: fixed;
+  width: 100%;
+  font-family: 'Comfortaa', cursive;
+}
+
+.sticky-navbar:hover a {
+  text-decoration: none;
+}
+
+.sticky-navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*  */
+
+/* to-see-more */
+
+.to-see-more .container {
+  max-width: 650px;
+}
+
+.to-see-more a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Comfortaa', cursive;
+}
+
+.to-see-more:hover a {
+  text-decoration: none;
+  color: rgb(167, 118, 118);
+}
+
+/* footer */
+
+.footer .container {
+  max-width: 650px;
+}
+
+.footer .footer-link {
+  width: 100%;
+  height: 150px;
+}
+
+/* copy right */
+
+.copy-right {
+  font-family: 'Comfortaa', cursive;
+  width: 100%;
+  height: 50px;
+  font-size: 0.7rem;
+}
